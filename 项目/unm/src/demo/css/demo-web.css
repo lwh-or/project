@@ -1,0 +1,7 @@
+@media screen and (max-width:600px) {
+  .demo {
+    width: 10px;
+    height: 32rem;
+    background-color: #f90;
+  }
+}

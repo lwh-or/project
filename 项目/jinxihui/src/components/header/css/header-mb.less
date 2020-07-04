@@ -1,0 +1,42 @@
+.header {
+  width: 960px;
+  z-index: 10;
+  
+  position: fixed;
+  top: 30px;
+  left: 0;
+  .header-left-logo {
+    float: left;
+    margin-left: 150px;
+    h1 {
+      img {
+        width: 213px;
+        height: 75px;
+        display: inline-block;
+      }
+    }
+  }
+  .header-right-nav {
+    float: right;
+    display: flex;
+    height: 61px;
+    margin-right: 10px;
+    .header-right-item {
+      color: white;
+      line-height: 61px;
+      margin-right: 30px;
+      cursor: pointer;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.on {
+        color: red;
+      }
+    }
+  }
+  .btn{
+    position: absolute;
+    right: -80px;
+    top: 8px;
+  }
+}

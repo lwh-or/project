@@ -1,0 +1,330 @@
+@media screen and (max-width:414px) {
+
+  .div_homedetail .btn_detail {
+    float: right;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+  }
+
+  #home {
+    width: 100%;
+  }
+
+  .home-container {
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    width: 100%;
+
+    // gif
+    .top_gif {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      min-width: 100%;
+      min-height: 400px;
+      height: auto;
+      width: auto;
+      z-index: -11;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .el-button {
+      width: 50px;
+      height: 10px;
+      position: relative;
+    }
+
+    video {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      min-width: 100%;
+      min-height: 100%;
+      height: auto;
+      width: auto;
+      z-index: -11;
+    }
+
+    source {
+      min-width: 100%;
+      min-height: 100%;
+      height: auto;
+      width: auto;
+    }
+
+    .extend {
+      display: none;
+    }
+
+    #left-logo {
+      display: block;
+      width: 116px;
+      height: 22px;
+      margin: auto;
+      position: absolute;
+      left: 50%;
+      top: 1.6rem;
+      transform: translateX(-50%);
+      z-index: 100;
+
+      img {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin: auto;
+      }
+    }
+
+    #header {
+      min-width: 750px;
+    }
+
+    .header {
+      display: none;
+      position: absolute;
+      width: 100%;
+      z-index: 300;
+
+      .header-left-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        float: left;
+        display: flex;
+        align-items: center;
+
+        h1 {
+          padding-bottom: 8px;
+
+          img {
+            width: 139px;
+            height: 27px;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+
+      .header-right-nav {
+        display: flex;
+        height: 60px;
+        margin: 0;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .header-right-item {
+          cursor: pointer;
+          font-size: 9px;
+          font-family: 'PingFang SC';
+          color: #999999;
+          height: 42px;
+          margin-right: 15px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &.on {
+            color: #ffffff;
+          }
+        }
+      }
+
+      .change-language {
+        width: 70px;
+        line-height: 61px;
+
+        button {
+          padding: 0 12px 0 14px;
+          line-height: 18px;
+          display: inline-block;
+          font-size: 12px;
+          font-family: 'PingFang SC';
+          font-weight: 500;
+          color: rgba(51, 51, 51, 1);
+          outline: none;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+
+          &::after {
+            content: '';
+            display: inline-block;
+            width: 11px;
+            height: 6px;
+            background-image: url('../../assets/images/dianji.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        }
+      }
+    }
+  }
+
+  #main {
+    height: 400px;
+
+    div:first-of-type {
+      padding-top: 68px;
+    }
+
+    .main-img {
+      display: none;
+    }
+  }
+
+  .main {
+    height: 667px;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-width: 375px;
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    // z-index: 200;
+    // width: 100%;
+
+    .main-top {
+      font-size: 16px;
+      padding-top: 126px;
+      box-sizing: border-box;
+      color: #f7f7f7;
+    }
+
+    .main-container {
+      font-size: 20px;
+      font-family: 'FZLanTingHei-B-GBK';
+      font-weight: 400;
+      color: #FFFFFF;
+      margin-top: 0;
+    }
+
+    .main-network {
+      font-size: 18px;
+      font-weight: 400;
+      color: #FFFFFF;
+      line-height: 6px;
+    }
+
+    .main-button {
+      margin-top: 0px;
+      justify-content: center;
+      font-size: 16px;
+      font-family: 'PingFang SC';
+      font-weight: 800;
+      color: #fff;
+      flex-wrap: wrap;
+      margin-top: 50px;
+
+      li button {
+        width: 111px;
+        height: 36px;
+        line-height: 34px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        margin-right: 19px;
+        color: #fff;
+        background: none;
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+
+      button:hover {
+        transform: scale(1.1);
+        background: #fff;
+        color: black;
+
+        a {
+          color: black;
+        }
+      }
+    }
+
+    .main-img {
+      margin-top: 178px;
+
+      img {
+        width: 27px;
+        height: 31px;
+      }
+    }
+  }
+
+  .fixd {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  #exten {
+    display: block;
+    width: 2.24rem;
+    height: 1.28rem;
+    margin-top: 0;
+    margin-left: 1.706667rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .header-left-logo {
+      display: flex;
+      align-items: center;
+
+      h1 {
+        padding-bottom: 8px;
+
+        img {
+          width: 139px;
+          height: 27px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .video-player {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%
+  }
+
+  .vjs-tech {
+    height: 38.08rem;
+  }
+
+  .top_gif {
+    position: absolute;
+    z-index: 500;
+  }
+}

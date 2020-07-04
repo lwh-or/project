@@ -1,0 +1,94 @@
+@media screen and (max-width:750px) {
+
+  #total {
+    display: block;
+    width: 750px;
+    height: 980px;
+    background: url('./img/33333.png');
+    background-size: 100% 100%;
+
+    .total_text {
+      color: white;
+      padding: 50px 0 0 51px;
+
+      h1 {
+        font-size: 30px;
+      }
+
+      div {
+        width: 306px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .total_con {
+      color: white;
+      width: 80%;
+      display: flex;
+      // padding-bottom: 62px;
+      padding-top: 50px;
+      margin: auto;
+
+      .total_con_log {
+        img {
+          width: 80px;
+          height: 62px;
+        }
+      }
+
+      .total_con_text {
+        padding-left: 20px;
+
+        p {
+          height: 30px;
+          line-height: 20px;
+        }
+      }
+    }
+
+    .total_con_bottom {
+      width: 430px;
+      height: 299px;
+      padding-top: 50px;
+      margin: auto;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .t_con_text {
+        width: 144px;
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 10px;
+
+        p {
+          text-align: center;
+          color: white;
+          line-height: 50px;
+        }
+      }
+
+      .t_text_1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .t_text_2 {
+        position: absolute;
+        right: -100px;
+        top: -10px;
+      }
+
+      .t_text_3 {
+        position: absolute;
+        right: -50px;
+        bottom: 70px;
+      }
+    }
+  }
+}

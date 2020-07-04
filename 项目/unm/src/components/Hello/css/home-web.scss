@@ -1,0 +1,255 @@
+@media screen and (max-width:750px) {
+
+  .div_homedetail .btn_detail {
+    float: right;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+  }
+
+  #home {
+    width: 750px;
+  }
+
+  .home-container {
+    height: 60px;
+    line-height: 60px;
+
+    .el-button {
+      width: 50px;
+      height: 10px;
+      position: relative;
+    }
+
+    video {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      min-width: 100%;
+      min-height: 100%;
+      height: auto;
+      width: auto;
+      z-index: -11;
+    }
+
+    source {
+      min-width: 100%;
+      min-height: 100%;
+      height: auto;
+      width: auto;
+    }
+
+    .extend {
+      display: none;
+    }
+
+    #left-logo {
+      display: block;
+      width: 12.8rem;
+      height: 39px;
+      margin: auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin: auto;
+      }
+    }
+
+    #header {
+      min-width: 750px;
+    }
+
+    .header {
+
+      display: none;
+
+      .header-left-logo {
+        display: flex;
+        align-items: center;
+
+        h1 {
+          padding-bottom: 8px;
+
+          img {
+            width: 139px;
+            height: 27px;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+
+      .header-right-nav {
+        display: flex;
+        height: 60px;
+        margin: 0;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .header-right-item {
+          cursor: pointer;
+          font-size: 9px;
+          font-family: 'PingFang SC';
+          color: #999999;
+          height: 42px;
+          margin-right: 15px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &.on {
+            color: #ffffff;
+          }
+        }
+      }
+
+      .change-language {
+        width: 70px;
+        line-height: 61px;
+
+        button {
+          padding: 0 12px 0 14px;
+          line-height: 18px;
+          display: inline-block;
+          font-size: 12px;
+          font-family: 'PingFang SC';
+          font-weight: 500;
+          color: rgba(51, 51, 51, 1);
+          outline: none;
+          border-radius: 4px;
+          border: 1px solid #ccc;
+
+          &::after {
+            content: '';
+            display: inline-block;
+            width: 11px;
+            height: 6px;
+            background-image: url('../../assets/images/dianji.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    height: 840px;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    .main-top {
+      font-size: 30px;
+      padding-top: 229px;
+      box-sizing: border-box;
+      color: #f7f7f7;
+    }
+
+    .main-container {
+      font-size: 36px;
+      font-family: 'FZLanTingHei-B-GBK';
+      font-weight: 400;
+      color: white;
+      // margin-top: 60px;
+    }
+
+    .main-network {
+      font-size: 30px;
+      font-weight: 400;
+      color: white;
+    }
+
+    .main-button {
+      margin-top: 73px;
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+      font-family: 'pingfang';
+      // font-weight: 800;
+      color: #fff;
+
+      li button {
+        width: 111px;
+        height: 36px;
+        line-height: 34px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        margin-right: 19px;
+        color: #fff;
+        background: none;
+
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+
+      button:hover {
+        transform: scale(1.1);
+        background: #fff;
+        color: black;
+
+        a {
+          color: black;
+        }
+      }
+    }
+
+    .main-img {
+      margin-top: 114px;
+
+      img {
+        width: 47px;
+        height: 57px;
+      }
+    }
+  }
+
+  .fixd {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+  }
+
+  #exten {
+    display: block;
+    width: 2.24rem;
+    height: 1.28rem;
+    margin-top: 0;
+    margin-left: 1.706667rem;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .header-left-logo {
+      display: flex;
+      align-items: center;
+
+      h1 {
+        padding-bottom: 8px;
+
+        img {
+          width: 139px;
+          height: 27px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+}

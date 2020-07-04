@@ -1,0 +1,11 @@
+@media screen and (max-width:750px) {
+  .home-container .footer .footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+    // height: 1200px;
+  }
+  .home-container .footer .footer-icon{
+    padding-bottom: 30px;
+  }
+}

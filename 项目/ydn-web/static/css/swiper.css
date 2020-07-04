@@ -1,0 +1,182 @@
+.ynd_logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.173rem;
+  height: 1.173rem;
+  display: block;
+}
+
+.ynd_logo_r{
+  width: 2.56rem;
+  height: 1.973rem;
+  font-size: .64rem;
+  color: #FFFFFF;
+}
+
+.ynd_content {
+  position: relative;
+  margin-left: 0.8rem;
+  margin-top: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.swiper-slide {
+  color: #ffffff;
+}
+
+.swiper-slide .slide_top {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide .slide_pice {
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-size: 1.28rem;
+  height: 1.493rem;
+  line-height: 1.493rem;
+  letter-spacing: -1px;
+  margin-top: 0.32rem;
+}
+
+.swiper-slide .slide_bottom {
+  display: flex;
+  margin-top: 2.08rem;
+}
+
+.slide_bottom .slide_box {
+  flex: 1;
+  text-align: center;
+}
+
+.slide_box .slide_total {
+  font-size: 0.853rem;
+}
+
+.slide_box .yesterday {
+  font-size: 0.64rem;
+  color: #cccccc;
+}
+
+.slide_top .totalPice {
+  font-size: 0.64rem;
+}
+/* .slide_top {
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+.slide_top .totalPice+img {
+  width: 0.96rem;
+  height: 0.427rem;
+  display: block;
+  margin-left: 0.587rem;
+}
+
+.item_content {
+  text-align: right;
+}
+
+
+
+.t_time,
+.t-sub-title,
+.finish {
+  margin: 0.533rem 0;
+}
+
+.t-sub-title,
+.t-sub-count,
+.t-newTime,
+.t-sub-info,
+.status {
+  font-size: 0.64rem !important;
+  color: #cccccc;
+}
+
+.finish {
+  font-size: 0.64rem;
+  color: #ff4e5f;
+}
+
+.t_time {
+  font-size: 0.64rem;
+  color: #e4e4e4;
+}
+
+.mu-list {
+  padding-top: 0px;
+}
+
+.mu-item-title {
+  font-size: 0.853rem;
+  color: #ffffff;
+}
+
+.t_b {
+  font-size: 0.747rem;
+  color: #e4e4e4;
+}
+
+
+
+.swiper-slide {
+  width: 15.893rem;
+  height: 8.96rem;
+  border-radius: 0.267rem;
+  background: #fff;
+  transition: 300ms;
+  transform: scale(0.8);
+}
+
+/*  */
+.swiper-slide img {
+  display: block;
+}
+
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  transform: scale(1);
+}
+
+
+.crads {
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+.crads .crad_item {
+  width: 2.027rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.747rem;
+}
+
+.crads .crad_item>p {
+  margin-top: 0.267rem;
+}
+
+.crads .crad_item:nth-child(1) {
+  margin-right: -2.133rem;
+}
+
+.crads .crad_item:nth-child(3) {
+  margin-left: -2.133rem;
+}
+
+.crads .crad_item img {
+  width: 2.027rem;
+  height: 2.027rem;
+  display: block;
+}
+
+
+
+.mu-item {
+  margin-top: .373rem;
+}

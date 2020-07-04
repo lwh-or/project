@@ -1,0 +1,94 @@
+@media screen and (max-width:414px) {
+
+  .home-container .community .community-cooperation {
+    width: 100%;
+  }
+
+  #padd_img {
+    padding-left: 20px;
+  }
+
+  .home-container .community .ume-community .community-number {
+    flex-wrap: wrap;
+    padding-top: 0;
+
+    .number_li {
+      display: none;
+    }
+  }
+
+  .home-container .community .ume-community h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .home-container .community .ume-community .community-number li {
+    width: 135px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 30px;
+    // font-family: 'thj';
+    font-weight: bold;
+    p {
+      font-family: "pingfang";
+      font-size: 8px;
+      line-height: 20px;
+      color: #999;
+    }
+  }
+
+  .home-container .community .community-cooperation {
+    height: 410px;
+    background-image: url('../../assets/images/beijing.png');
+    width: 80%;
+    margin: 0 auto;
+
+    h2 {
+      padding: 40px 0 10px 0;
+      font-size: 20px;
+      font-family: 'thj';
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .community-img {
+      display: none;
+
+      // display: flex;
+      // justify-content: space-evenly;
+      .community-t {
+        display: flex;
+        justify-content: space-between;
+        padding: 39px 31px;
+        flex-wrap: wrap;
+
+        img {
+          margin-right: 30px;
+        }
+
+        .left_img {
+          padding-left: 112px;
+        }
+      }
+    }
+
+    .p_comm-img {
+      display: block;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      div {
+        width: 50%;
+        height: 50px;
+      }
+
+      .none_code {
+        img {
+          width: 98px;
+          height: 14px;
+        }
+      }
+    }
+  }
+}

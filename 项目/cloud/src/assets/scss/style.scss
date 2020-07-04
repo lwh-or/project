@@ -1,0 +1,229 @@
+.pagination {
+  margin: 16px 0px;
+  text-align: center;
+}
+
+.lianshang-form .el-form-item {
+  margin-bottom: 10px !important;
+}
+
+.echartsPosition {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.container-search .el-card {
+  border: 0px !important;
+}
+
+.table_wrapper {
+  .table_header_bar {
+    padding: 5px 10px;
+    line-height: 36px;
+    font-size: 12px;
+    background-color: #f0f0f0;
+  }
+}
+
+.search-wrapper {
+  .search_header_bar {
+    padding: 5px 10px;
+    line-height: 36px;
+    font-size: 12px;
+    background-color: #f0f0f0;
+    .hdader-option {
+      text-align: right;
+      padding: 0px 30px;
+    }
+  }
+}
+.apply_detail_wrapper {
+  .border {
+    border: 1px solid #ebeef5;
+  }
+  .card_item {
+    margin-bottom: 20px;
+    .content {
+      padding: 20px;
+      .error {
+        color: #f00;
+      }
+      .attachment_list {
+        padding-top: 20px;
+        div {
+          display: inline-flex;
+        }
+        .attachment_img {
+          margin: 0px 20px 0px 0px;
+          .small-img {
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+          }
+        }
+      }
+    }
+    .header_bar {
+      padding: 5px 10px;
+      line-height: 24px;
+      font-size: 12px;
+      background-color: #f0f0f0;
+    }
+  }
+}
+
+.flex-wrapper {
+  display: flex;
+  .tree_menu {
+    width: 300px;
+    border: 1px solid #f80;
+  }
+  .content_list {
+    flex: 1;
+  }
+}
+
+.tree-select {
+  padding: 6px 10px;
+  border: 1px solid #eceff1;
+  width: 300px;
+  min-height: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+.select_btn {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 12px;
+}
+
+.wrap-content {
+  max-width: 600px;
+  padding: 20px 30px;
+  border: 1px solid #eceff1;
+  border-radius: 12px;
+}
+
+.addition_wrap,.maintenance_wrap {
+  input::-webkit-input-placeholder {
+    color: #aab2bd;
+    font-size: 12px;
+  }
+  .el-radio__label {
+    font-size: 12px !important;
+  }
+  .el-select-dropdown__item {
+    font-size: 12px !important;
+  }
+  max-width: 600px;
+  .el-input__inner {
+    width: 240px !important;
+    height: 28px !important;
+    border-radius: 0px !important;
+  }
+  .el-slider__runway {
+    width: 240px !important;
+  }
+  .el-date-editor {
+    width: 100% !important;
+  }
+  .el-radio--medium.is-bordered {
+    border-radius: 0px !important;
+  }
+  .el-button {
+    border-radius: 0px !important;
+  }
+  .line {
+    text-align: center;
+  }
+  .header-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 20px 30px 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    border-left: 5px solid #1e9fff;
+  }
+}
+
+.search-wrapper .search_header_bar {
+  background-color: #fff;
+}
+.el-input__inner {
+  border-radius: 0 !important;
+  height: 32px !important;
+  line-height: 32px !important;
+}
+.item_fontSize {
+  font-size: 14px;
+  font-weight: bold;
+}
+.item_border_left {
+  border-left: 4px solid #1e9fff;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.item_line_height {
+  line-height: 40px;
+}
+.item_header_bar {
+  background-color: #fff !important;
+}
+.el-table th {
+  background-color: #f4f6f8 !important;
+}
+.item_btn_margin {
+  margin-left: 100px;
+}
+.default-layout-header .header-bar {
+  line-height: 28px !important;
+}
+.item_label {
+  color: #8d9399;
+}
+.el-input {
+  width: 250px !important;
+}
+.el-cascader-menu:last-child {
+  max-height: 500px !important;
+}
+.el-cascader-menu__wrap {
+  height: 560px !important;
+}
+.item_table_none{
+  .el-table__body-wrapper{
+    display: none !important;
+  }
+}
+.item_export{
+  font-size: 22px;
+  line-height: 82px;
+  padding-left: 143px;
+}
+.item_export_from{
+  width: 260px !important;
+  padding-left: 10px  ;
+}
+.item_supplier{
+  padding-left: 30px;
+}
+.demo-drawer__footer{
+  // text-align: center;
+  padding-left: 33px;
+}
+.item_cancel{
+  width: 18%;
+  margin: 20px 44px !important; 
+}
+
+.item_font_sixe{
+  width: 108px  ;
+}
+.el-date-picker__editor-wrap{
+  .el-input{
+    width: 145px !important;
+  }
+}
